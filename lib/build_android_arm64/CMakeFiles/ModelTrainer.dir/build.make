@@ -93,6 +93,7 @@ ModelTrainer_EXTERNAL_OBJECTS =
 libModelTrainer.so: CMakeFiles/ModelTrainer.dir/ModelTrainer.cpp.o
 libModelTrainer.so: CMakeFiles/ModelTrainer.dir/build.make
 libModelTrainer.so: /Users/andrey/Desktop/mnist_tf/lib/arm64-v8a/libtensorflowlite.so
+libModelTrainer.so: /Users/andrey/Desktop/mnist_tf/lib/arm64-v8a/libtensorflowlite_flex.so
 libModelTrainer.so: CMakeFiles/ModelTrainer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/andrey/Desktop/mnist_tf/lib/build_android_arm64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libModelTrainer.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ModelTrainer.dir/link.txt --verbose=$(VERBOSE)

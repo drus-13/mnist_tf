@@ -95,6 +95,7 @@ UseModelTrainerApp: CMakeFiles/UseModelTrainerApp.dir/build.make
 UseModelTrainerApp: /Users/andrey/Desktop/mnist_tf/lib/build_android_arm64/libModelTrainer.so
 UseModelTrainerApp: /Users/andrey/Library/Android/sdk/ndk/21/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/liblog.so
 UseModelTrainerApp: /Users/andrey/Desktop/mnist_tf/lib/arm64-v8a/libtensorflowlite.so
+UseModelTrainerApp: /Users/andrey/Desktop/mnist_tf/lib/arm64-v8a/libtensorflowlite_flex.so
 UseModelTrainerApp: CMakeFiles/UseModelTrainerApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/andrey/Desktop/mnist_tf/app/build_android_arm64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable UseModelTrainerApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UseModelTrainerApp.dir/link.txt --verbose=$(VERBOSE)

@@ -258,7 +258,7 @@ ModelTrainerLib_IS_TOP_LEVEL:STATIC=ON
 ModelTrainerLib_SOURCE_DIR:STATIC=/Users/andrey/Desktop/mnist_tf/lib
 
 //Dependencies for the target
-ModelTrainer_LIB_DEPENDS:STATIC=general;tflite;
+ModelTrainer_LIB_DEPENDS:STATIC=general;tflite;general;-Wl,--no-as-needed;general;tflite-flex;
 
 
 ########################

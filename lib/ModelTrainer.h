@@ -6,6 +6,7 @@
 #include <string>
 #include <memory>
 #include "tensorflow/lite/interpreter.h"
+#include "tensorflow/lite/delegates/flex/delegate.h"
 #include "tensorflow/lite/model.h"
 
 class ModelTrainer {
